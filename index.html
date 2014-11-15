@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" data-framework="angularjs">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta charset="utf-8">
+	<title>Do Smth</title>
+	<meta name="generator" content="Bootply" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<!--[if lt IE 9]>
+		<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	<link href="css/styles.css" rel="stylesheet">
+</head>
+
+
+<body ng-app="dosmth"1>
+  <div class="navbar navbar-custom navbar-fixed-top">
+    <div class="navbar-header"><a class="navbar-brand" href="#">DoSmth</a>
+      <a class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">Create Event</a></li>
+        <li>&nbsp;</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+
+    </div>
+  </div>
+
+  <div id="map-canvas"></div>
+
+  <div class="container-fluid" id="main">
+    <div class="row">
+    	<div class="col-md-5"><!--map-canvas--></div>
+
+    	<div class="col-md-7" id="left">
+      
+        <h2>Do Something</h2>
+        <smth-vew></smth-view>
+      </div>
+    </div>
+  </div>
+
+  	<script type="text/javascript" src="js/jquery.min.js"></script>
+  	<script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/angular.js"></script>
+    <script type="text/javascript" src="app/app.js"></script>
+  	<script type="text/javascript" src="app/scripts.js"></script>
+    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false&extension=.js&output=embed"></script>
+</body>
+</html>

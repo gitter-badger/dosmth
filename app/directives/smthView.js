@@ -1,5 +1,3 @@
-var app = angular.module('dosmth', []);
-
 app.directive('smthView', function() {
 	return {
 		restrict: 'E',
