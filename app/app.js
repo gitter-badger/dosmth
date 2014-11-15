@@ -3,8 +3,8 @@ angular.module('dosmth', ['ngRoute'])
 		'use strict';
 
 		$routeProvider.when('/', {
-			controller: 'smthCtrl',
-			templateUrl: 'views/smthView.html'
+			controller: 'mainCtrl',
+			templateUrl: 'views/mainView.html'
 		}).when('/create', {
 			controller: 'smthCtrl',
 			templateUrl: 'views/smthView.html'

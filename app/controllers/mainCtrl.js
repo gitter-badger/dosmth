@@ -1,1 +1,5 @@
-angular.module('todomvc', [ ]);
+angular.module('dosmth')
+	.controller('mainCtrl', function TodoCtrl($scope, $routeParams) {
+
+	});
+;
