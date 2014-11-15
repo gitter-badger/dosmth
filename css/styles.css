@@ -11,7 +11,7 @@ author: bootply.com
 
 html,body{
   	height:100%;
-    padding-top: 30px;
+    padding-top: 28px;
 }
 
 /*navbar*/
@@ -20,12 +20,12 @@ html,body{
 }
 
 .navbar-custom {
-	background-color: #168ccc;
+	background-color: #008F6B;
     color:#fff;
 }
 
 .navbar-custom li>a:hover,.navbar-custom li>a:focus {
-	background-color:#49bfff;
+	background-color:#00CC99;
 }
 
 .navbar-custom a{
@@ -33,7 +33,7 @@ html,body{
 }
 
 .navbar-custom .form-control:focus {
-	border-color: #49bfff;
+	border-color: #00CC99;
 	outline: 0;
 	-webkit-box-shadow: inset 0 0 0;
 	box-shadow: inset 0 0 0;
