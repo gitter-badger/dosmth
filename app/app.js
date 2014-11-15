@@ -5,7 +5,7 @@ angular.module('dosmth', ['ngRoute'])
 		$routeProvider.when('/', {
 			controller: 'mainCtrl',
 			templateUrl: 'views/mainView.html'
-		}).when('/create', {
+		}).when('/smth/create', {
 			controller: 'smthCtrl',
 			templateUrl: 'views/smthView.html'
 		}).otherwise({
