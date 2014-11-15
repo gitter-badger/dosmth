@@ -1,17 +1,14 @@
-var app = angular.module('dosmth', []);
+angular.module('dosmth', ['ngRoute'])
+	.config(function ($routeProvider) {
+		'use strict';
 
-app.directive('smthView', function() {
-	return {
-		restrict: 'E',
-		templateUrl: 'views/smthView.html',
-		controller: function() {
-			this.new_smth = {};
-
-			this.addSmth = function(smth) {
-				smth.info.push(this.new_smth);
-				this.new_smth = {};
-			};
-		},
-		controllerAs: 'smthCtrl'
-	};
-});
+		$routeProvider.when('/', {
+			controller: 'smthCtrl',
+			templateUrl: 'views/smthView.html'
+		}).when('/create', {
+			controller: 'smthCtrl',
+			templateUrl: 'views/smthView.html'
+		}).otherwise({
+			redirectTo: '/'
+		});
+	});
