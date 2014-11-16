@@ -7,6 +7,9 @@ var app = angular.module('dosmth', ['ngRoute'])
 		}).when('/smth/create', {
 			controller: 'smthCtrl',
 			templateUrl: 'views/smthView.html'
+		}).when('/smth/modify/:id', {
+			controller: 'smthCtrl',
+			templateUrl: 'views/smthView.html'
 		}).when('/about', {
 			controller: 'mainCtrl',
 			templateUrl: 'views/aboutView.html'
