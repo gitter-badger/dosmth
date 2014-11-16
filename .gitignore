@@ -4,3 +4,4 @@ app/.DS_store
 js/.DS_Store
 npm-debug.log
 readme_old.md
+bower_components
