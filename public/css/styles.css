@@ -3,7 +3,7 @@ html,body{
     padding-top: 28px;
 }
 /*map*/
-.map {
+#map {
     height: 400px;
 }
 
