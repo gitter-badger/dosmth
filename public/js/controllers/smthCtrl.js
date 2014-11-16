@@ -20,13 +20,13 @@ angular.module('dosmth')
 		}
 
 		$scope.addSmth = function() {
-			$scope.smth.id = smths.length+1;
 			smths.push($scope.smth);
 			$scope.smth = {};
 		};
 
 		$scope.editSmth = function () {
-			smths[$scope.smth.id] = $scope.smth;
-			$scope.smth = {};
+			//search for the right smth in smths
+			//smths[$scope.smth.id] = $scope.smth;
+			//$scope.smth = {};
 		};
 	});
