@@ -2,7 +2,14 @@ angular.module('dosmth')
 	.controller('smthCtrl', function smthCtrl($scope, $routeParams) {
 		'use strict';
 
-		var smths = $scope.smths;
+		//var smths = $scope.smths;
+		$scope.smths = [
+			{
+				'name': 'Test event 1',
+				'activity': 'Ultimate Testbee',
+				'desc': 'Description.. Description'
+			}
+		];
 
 		$scope.newSmth = '';
 

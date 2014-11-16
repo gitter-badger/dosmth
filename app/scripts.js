@@ -18,6 +18,30 @@ function initialize() {
   });
   
   var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
+  
+  var styles = [
+  {
+    stylers: [
+      { hue: "#00ffe6" },
+      { saturation: -20 }
+    ]
+  },{
+    featureType: "road",
+    elementType: "geometry",
+    stylers: [
+      { lightness: 100 },
+      { visibility: "simplified" }
+    ]
+  },{
+    featureType: "road",
+    elementType: "labels",
+    stylers: [
+      { visibility: "simplified" }
+    ]
+  }];
+
+  map.setOptions({styles: styles});
+
   marker.setMap(map);
 
 };
