@@ -1,4 +1,4 @@
-var app = angular.module('dosmth', ['ngRoute', 'google-maps'.ns()])
+var app = angular.module('dosmth', ['ngRoute', 'ngMap'])
 	.config(function ($routeProvider) {
 		'use strict';
 		$routeProvider.when('/', {
@@ -11,12 +11,12 @@ var app = angular.module('dosmth', ['ngRoute', 'google-maps'.ns()])
 			controller: 'smthCtrl',
 			templateUrl: 'views/smthView.html'
 		}).when('/about', {
-			controller: 'mainCtrl',
+			controller: 'smthCtrl',
 			templateUrl: 'views/aboutView.html'
 		}).when('/contact', {
-			controller: 'mainCtrl',
+			controller: 'smthCtrl',
 			templateUrl: 'views/contactView.html'
 		}).otherwise({
-			redirectTo: '/'
+			redirectTo: '#/'
 		});
 	});

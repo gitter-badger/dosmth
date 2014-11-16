@@ -5,7 +5,7 @@ angular.module('dosmth')
 		//move to services
 	  	$http.get('/events').
 	    success(function(data, status, headers, config) {
-	      $scope.smths = data;
+	      var smths = $scope.smths = data;
 	    }).
 	    error(function(data, status, headers, config) {
 	      // log error
