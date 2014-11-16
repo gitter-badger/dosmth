@@ -1,4 +1,4 @@
-angular.module('dosmth', ['ngRoute'])
+var app = angular.module('dosmth', ['ngRoute'])
 	.config(function ($routeProvider) {
 		'use strict';
 
@@ -8,6 +8,12 @@ angular.module('dosmth', ['ngRoute'])
 		}).when('/smth/create', {
 			controller: 'smthCtrl',
 			templateUrl: 'views/smthView.html'
+		}).when('/about', {
+			controller: 'mainCtrl',
+			templateUrl: 'views/aboutView1.html'
+		}).when('/contact', {
+			controller: 'mainCtrl',
+			templateUrl: 'views/contactView.html'
 		}).otherwise({
 			redirectTo: '/'
 		});
