@@ -1,1 +1,0 @@
-[{"name":"Event1", "desc":"This is event one"},{"name":"Event2", "desc":"This is event two"}]
