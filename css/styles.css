@@ -59,12 +59,8 @@ html,body{
 	height:100%;
 }
 
-#map-canvas {
-	width:41%;
-    height:calc(100% - 0);
-    position:absolute;
-    left:0px;
-    top:50px;
-    bottom:0;
-    overflow:hidden;
+.angular-google-map-container { 
+    height: 700px; 
+    width: 100%;
+    left:-40px;
 }

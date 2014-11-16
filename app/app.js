@@ -1,4 +1,4 @@
-var app = angular.module('dosmth', ['ngRoute'])
+var app = angular.module('dosmth', ['ngRoute', 'google-maps'.ns()])
 	.config(function ($routeProvider) {
 		'use strict';
 		$routeProvider.when('/', {
