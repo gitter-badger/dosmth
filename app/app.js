@@ -1,9 +1,3 @@
-require('./models/Events');
-
-var mongoose = require('mongoose');
-
-mongoose.connect('mongodb://localhost/events');
-
 var app = angular.module('dosmth', ['ngRoute'])
 	.config(function ($routeProvider) {
 		'use strict';
