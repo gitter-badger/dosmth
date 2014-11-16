@@ -12,6 +12,7 @@ function initialize() {
   };
   
   var marker = new google.maps.Marker({
+    draggable: true,
     position: latlng,
     url: '/#',
     animation: google.maps.Animation.DROP

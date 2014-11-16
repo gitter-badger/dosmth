@@ -4,12 +4,14 @@
 		<tr>
 			<th>Name</th>
 			<th>Activity</th>
+			<th>Location</th>
 			<th>Description</th>
 			<th>Modify</th>
 		</tr>
 		<tr ng-repeat="smth in smths">
 			<td>{{smth.name}}</td>
 			<td>{{smth.activity}}</td>
+			<td>{{smth.loc}}</td>
 			<td>{{smth.desc}}</td>
 			<td><a href="#/smth/modify/{{smth.id}}"> Edit</a></td>
 		</tr>
