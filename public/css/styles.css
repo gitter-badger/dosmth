@@ -2,10 +2,6 @@ html,body{
   	height:100%;
     padding-top: 28px;
 }
-/*map*/
-#map {
-    height: 400px;
-}
 
 /*about*/
 .about-icon {
