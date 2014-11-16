@@ -1,5 +1,5 @@
 angular.module('dosmth')
-	.controller('mainCtrl', function TodoCtrl($scope, $routeParams) {
+	.controller('mainCtrl', function mainCtrl($scope, $routeParams) {
 
 	});
 ;

@@ -3,6 +3,11 @@ html,body{
     padding-top: 28px;
 }
 
+/*about*/
+.about-icon {
+    padding-right:10px;
+}
+
 /*navbar*/
 .navbar-custom .icon-bar {
 	background-color:#fff;
@@ -32,12 +37,22 @@ html,body{
     padding-right: 20px;
 }
 
+.smth-view {
+    padding-top:20px;
+}
+
+/* form */
+.form-control {
+    width:95%;
+}
+
 #main, #main>.row {
 	height:100%;
 }
 
 #main>.row {
     overflow-y:scroll;
+    padding-left:30px;
 }
 
 #left {

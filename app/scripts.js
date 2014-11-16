@@ -3,18 +3,17 @@ google.maps.event.addDomListener(window, 'load', initialize);
 
 function initialize() {
 
-  /* position Amsterdam */
   var latlng = new google.maps.LatLng(43.4822185,-80.5467194);
 
   var mapOptions = {
     center: latlng,
     scrollWheel: false,
-    zoom: 13
+    zoom: 15
   };
   
   var marker = new google.maps.Marker({
     position: latlng,
-    url: '/',
+    url: '/#',
     animation: google.maps.Animation.DROP
   });
   

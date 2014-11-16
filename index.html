@@ -25,13 +25,13 @@
     </div>
     <div class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="#create">Create Event</a></li>
+        <li class="active"><a href="#/">Home</a></li>
+        <li><a href="#smth/create">Create Event</a></li>
         <li>&nbsp;</li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
 
     </div>
@@ -43,9 +43,8 @@
     <div class="row">
     	<div class="col-md-5"><!--map-canvas--></div>
 
-    	<div class="col-md-7" id="right">
-        <h2>Do Something</h2>
-        <ng-view />
+    	<div class="col-md-7 smth-view" id="right">
+        <ng-view></ng-view>
       </div>
     </div>
   </div>
@@ -54,6 +53,7 @@
   	<script type="text/javascript" src="js/bootstrap.js"></script>
     <script type="text/javascript" src="js/angular.js"></script>
     <script type="text/javascript" src="js/angular-route.min.js"></script>
+    <script type="text/javascript" src="js/angular-mocks.js"></script>
 
     <script type="text/javascript" src="app/app.js"></script>
     <script type="text/javascript" src="app/controllers/smthCtrl.js"></script>
